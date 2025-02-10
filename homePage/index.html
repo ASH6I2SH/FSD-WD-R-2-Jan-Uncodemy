@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBlog</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+::selection{
+    color: rgb(121, 0, 233);
+}
+.main{
+    position: relative;
+    width: 100%;
+    height: 100vw;
+    background-color: rgb(71, 110, 125);
+}
+.background{
+    position: fixed;
+    width: 100%;
+    height: 100%;background-image: url(https://cdn.wallpapersafari.com/10/5/b7LyWi.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px); 
+}
+.Foreground{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+nav{
+    padding: 2vw;
+    position: fixed;
+    width: 100%;
+    height: 6vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    box-shadow: blue;
+    backdrop-filter: blur(1vw); 
+}
+nav > h1 img{
+    border-radius: 1vw;
+    width: 4vw;
+    height: 4vw;
+}
+nav .navPart2{
+    display: flex;
+    gap: 3vw;
+}
+nav .navPart2 h4{
+    font-weight:500;
+    font-size: 1.5vw;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.imageContainer{
+    margin-top: 6vw;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    box-shadow: rgb(148, 255, 160);
+}
+.imageContainer img{
+    object-position: center;
+}
+.cardContainer{
+    padding: 2vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card{
+    overflow: hidden;
+    border-radius: 1vw;
+    background-color: aqua;
+    width: 17vw;
+    height: 20vw;
+    margin-top: 3vw;
+    margin-right: 2vw;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    padding: 2vw;
+    width: 100%;
+    height: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(9, 99, 9, 0.486);
+    gap: 1rem;
+}
+
+</style>
+
+</head>
+<body>
+
+    <div class="main">
+
+        <div class="background"></div>
+
+        <div class="Foreground">
+
+            <nav>
+                <h1><img src="https://www.logolynx.com/images/logolynx/df/df440d9e33b8ae86e7d532c7f0ae2d4c.jpeg" alt=""></h1>
+                <div class="navPart2">
+                    <a href="#"><h4>Ernest Achiever</h4></a>
+                    <a href="#"><h4>Upload Images</h4></a>
+                    <a href="#"><h4>Authors</h4></a>
+                    <a href="#"><h4>Logout</h4></a> 
+                </div>
+            </nav>
+            
+            <div class="content">
+
+              <div class="imageContainer"><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4d87b0f4-ae26-4b18-835c-af3a7ce1349f/dcvj7k2-1746ec2b-e08f-4743-b186-6b07d75372af.png/v1/fill/w_1024,h_1024,q_80,strp/old_cartoon_collage_by_happaxgamma_dcvj7k2-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzRkODdiMGY0LWFlMjYtNGIxOC04MzVjLWFmM2E3Y2UxMzQ5ZlwvZGN2ajdrMi0xNzQ2ZWMyYi1lMDhmLTQ3NDMtYjE4Ni02YjA3ZDc1MzcyYWYucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.rnwaHuii_uJyP3cz9UvXqZNUpTk-kAqImclQJWfwx6U" alt=""></div>
+            
+              <div class="cardContainer">
+                  <div class="card"><img src="https://static.vecteezy.com/system/resources/previews/004/226/762/original/panda-cartoon-cute-say-hello-panda-animals-illustration-vector.jpg" alt=""></div>
+                  <div class="card"><img src="https://wallpaperaccess.com/full/759396.jpg" alt=""></div>
+                  <div class="card"><img src="https://th.bing.com/th/id/R.2b8ba5438bc43ac494373b0c44e89ab4?rik=CQmhsmCnOdPVVA&riu=http%3a%2f%2fwww.fotolip.com%2fwp-content%2fuploads%2f2016%2f06%2fdisney-cartoon_575a742bc182c.jpg&ehk=veOM%2bR2gCSyybggFOV6eoIs5wl%2fT4UghEh9dvwORgBw%3d&risl=&pid=ImgRaw&r=0" alt=""></div>
+                  <div class="card"><img src="https://th.bing.com/th/id/OIP.Jxgb9GwfTqedcxJ6yft6YQHaHu?rs=1&pid=ImgDetMain" alt=""></div>
+                  <div class="card"><img src="https://th.bing.com/th/id/R.9467db381710a58345794ac0f8f1c055?rik=W9KcqwJyl54p7Q&riu=http%3a%2f%2f1.bp.blogspot.com%2f-I4lfeHiOPPo%2fT0cKkXEoXrI%2fAAAAAAAAEkU%2fViKNVO6AmbA%2fs1600%2fcute_tweety_cartoon_characters.png&ehk=8c1uyCLSF0gqc%2f6i9uoNu6Wihn84%2bdAseQ1ZsuCQzVc%3d&risl=&pid=ImgRaw&r=0" alt=""></div>
+                  <div class="card"><img src="https://wallpaperaccess.com/full/436168.jpg" alt=""></div>
+                  <div class="card"><img src="https://wallpapercave.com/wp/CcV4UhO.jpg" alt=""></div>
+                  <div class="card"><img src="https://th.bing.com/th/id/R.923e4e3ada23b498613b65e08212e00b?rik=dcUBHSpq2plKtg&riu=http%3a%2f%2fthewowstyle.com%2fwp-content%2fuploads%2f2015%2f04%2fCartoon.jpg&ehk=04CKPNqo4wd7WSgglnQceFxHeAS0Y7vE%2fSmz2nwqcJ4%3d&risl=&pid=ImgRaw&r=0" alt=""></div>
+              </div>
+
+            </div>
+            
+
+            <footer>
+                <i class="ri-copyright-line"></i>
+                <h3>Ashish Pandey</h3>
+            </footer>
+            
+        </div>
+
+    </div>
+
+    
+
+</body>
+</html>
