@@ -5,7 +5,8 @@ console.log(a);
 
 // var, let , const
 var a=15;
-console.log(a);
+console.log(a);     
+
 var a=25;
 console.log(a);
 

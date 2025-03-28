@@ -1,0 +1,16 @@
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.upperPart{
+    display: flex;
+}
+.logo{
+    width: 8vw;
+    height: 4vw;
+}
+.flag{
+    width: 3vw;
+    height: 2vw;
+}
